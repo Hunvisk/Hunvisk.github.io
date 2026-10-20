@@ -43,3 +43,9 @@ next-env.d.ts
 # velite
 /.velite/
 /public/static/
+
+# lighthouse ci
+/.lighthouseci/
+
+# local session notes (kept out of the public repo)
+/OTURUM-OZETI.md
