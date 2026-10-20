@@ -21,6 +21,9 @@ const nextConfig = {
   images: {
     unoptimized: true, // Statik export'ta next/image optimizasyonu çalışmaz
   },
+  experimental: {
+    globalNotFound: true, // İki kök layout olduğu için 404 sayfası app/global-not-found.tsx'te
+  },
   turbopack: {
     rules: {
       '*.css': {
