@@ -11,6 +11,13 @@ export const tr: Dictionary = {
   nav: {
     home: 'Ana sayfa',
     switchLanguage: 'English version',
+    games: 'Oyunlar',
+    privacy: 'Gizlilik',
+    support: 'Destek',
+  },
+  games: {
+    title: 'Oyunlar',
+    open: 'Aç',
   },
   hero: {
     name: 'Hunvisk',

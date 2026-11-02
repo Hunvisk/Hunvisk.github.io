@@ -15,7 +15,15 @@ export function SiteHeader({ locale }: { locale: Locale }) {
       >
         {t.meta.siteName}
       </Link>
-      <LanguageSwitch locale={locale} label={t.nav.switchLanguage} />
+      <nav className="flex items-center gap-5 text-sm">
+        <Link
+          href={localePath(locale, '/cyber-hustle/')}
+          className="text-muted-foreground transition-colors hover:text-primary"
+        >
+          {t.nav.games}
+        </Link>
+        <LanguageSwitch locale={locale} label={t.nav.switchLanguage} />
+      </nav>
     </header>
   );
 }

@@ -1,5 +1,6 @@
 import { fontVariables } from '@/app/fonts';
 import { Providers } from '@/components/providers';
+import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
 import type { Locale } from '@/i18n/config';
 
@@ -17,6 +18,7 @@ export function RootDocument({
         <Providers>
           <SiteHeader locale={locale} />
           {children}
+          <SiteFooter locale={locale} />
         </Providers>
       </body>
     </html>

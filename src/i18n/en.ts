@@ -8,6 +8,13 @@ export const en = {
   nav: {
     home: 'Home',
     switchLanguage: 'Türkçe sürüm',
+    games: 'Games',
+    privacy: 'Privacy',
+    support: 'Support',
+  },
+  games: {
+    title: 'Games',
+    open: 'Open',
   },
   hero: {
     name: 'Hunvisk',
