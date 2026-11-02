@@ -50,7 +50,7 @@ const en: GameCopy = {
         heading: 'Your choices',
         body: [
           'iOS asks for your permission before your advertising identifier can be used ("Allow tracking"). You still get the reward if you decline; ads will simply be less personalized. You can change this anytime in Settings → Privacy & Security → Tracking.',
-          'If you are in the European Economic Area, the UK or Switzerland, the game asks for your consent before personalized ads are shown. Without consent you see non-personalized ads.',
+          'If you are in the European Economic Area, the UK or Switzerland, the game asks for your consent before personalized ads are shown. Without consent you see non-personalized ads. You can change your choice at any time in Settings > Credits > Ad Privacy Choices.',
           'You can reset or limit your advertising identifier in your device settings at any time.',
         ],
       },
@@ -134,7 +134,7 @@ const tr: GameCopy = {
         heading: 'Tercihleriniz',
         body: [
           'iOS, reklam kimliğinizin kullanılmasından önce izninizi ister ("Takibe izin ver"). Reddetseniz de ödülü alırsınız; reklamlar yalnızca daha az kişiselleşir. Bunu istediğiniz zaman Ayarlar → Gizlilik ve Güvenlik → Takip bölümünden değiştirebilirsiniz.',
-          'Avrupa Ekonomik Alanı, Birleşik Krallık veya İsviçre\'deyseniz oyun, kişiselleştirilmiş reklam göstermeden önce onayınızı ister. Onay vermezseniz kişiselleştirilmemiş reklam görürsünüz.',
+          'Avrupa Ekonomik Alanı, Birleşik Krallık veya İsviçre\'deyseniz oyun, kişiselleştirilmiş reklam göstermeden önce onayınızı ister. Onay vermezseniz kişiselleştirilmemiş reklam görürsünüz. Seçiminizi istediğiniz zaman Ayarlar > Credits > Ad Privacy Choices bölümünden değiştirebilirsiniz.',
           'Reklam kimliğinizi cihaz ayarlarından istediğiniz zaman sıfırlayabilir veya sınırlayabilirsiniz.',
         ],
       },
